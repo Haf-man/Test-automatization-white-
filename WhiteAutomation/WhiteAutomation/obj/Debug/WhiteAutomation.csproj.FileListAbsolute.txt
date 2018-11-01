@@ -1,0 +1,5 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\WhiteAutomation\bin\Debug\WhiteAutomation.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\WhiteAutomation\bin\Debug\WhiteAutomation.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\WhiteAutomation\obj\Debug\WhiteAutomation.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\WhiteAutomation\obj\Debug\WhiteAutomation.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\WhiteAutomation\obj\Debug\WhiteAutomation.pdb

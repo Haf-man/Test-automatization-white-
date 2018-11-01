@@ -1,0 +1,12 @@
+﻿<Window x:Name="TestAppMainWindow" x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="897.368">
+    <Grid>
+        <DataGrid x:Name="DataGrid"  HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="264" Width="498"  Grid.ColumnSpan="2"/>
+        <Button x:Name="BattonRandom" Content="Fill" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Width="80" Height="32" Click="BattonRandom_Click"/>
+        <Button x:Name="ButtonDisabled" Content="Disabled button" HorizontalAlignment="Left" Margin="407,279,0,0" VerticalAlignment="Top" Width="101" Height="32" IsEnabled="False"/>
+        <DataGrid x:Name="DataGrid_Static"  HorizontalAlignment="Left" Margin="530,10,0,0" VerticalAlignment="Top" Height="264" Width="335"/>
+        <Button x:Name="ButtonStaticFill" Content="Fill" HorizontalAlignment="Left" Margin="530,281,0,0" VerticalAlignment="Top" Width="109" Height="28" Click="ButtonStaticFill_Click"/>
+    </Grid>
+</Window>

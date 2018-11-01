@@ -1,0 +1,9 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\bin\Debug\GeneratorTest.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\bin\Debug\GeneratorTest.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\bin\Debug\AutomationTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\bin\Debug\WhiteAutomation.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\bin\Debug\AutomationTree.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\bin\Debug\WhiteAutomation.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\obj\Debug\TreeGeneratorTest.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\obj\Debug\GeneratorTest.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\GeneratorTest\obj\Debug\GeneratorTest.pdb

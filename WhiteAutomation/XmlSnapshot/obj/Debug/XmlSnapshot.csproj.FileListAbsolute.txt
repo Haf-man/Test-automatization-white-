@@ -1,0 +1,9 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\bin\Debug\XmlSnapshot.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\bin\Debug\XmlSnapshot.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\bin\Debug\AutomationTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\bin\Debug\AutomationTree.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\obj\Debug\XmlSnapshot.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\obj\Debug\XmlSnapshot.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\obj\Debug\XmlSnapshot.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\bin\Debug\DifferenceTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshot\bin\Debug\DifferenceTree.pdb

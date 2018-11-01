@@ -1,0 +1,5 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\ConfigurationReader\bin\Debug\ConfigurationReader.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\ConfigurationReader\bin\Debug\ConfigurationReader.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\ConfigurationReader\obj\Debug\ConfigurationReader.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\ConfigurationReader\obj\Debug\ConfigurationReader.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\ConfigurationReader\obj\Debug\ConfigurationReader.csprojResolveAssemblyReference.cache

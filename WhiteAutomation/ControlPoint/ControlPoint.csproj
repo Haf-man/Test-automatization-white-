@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0332B1E2-BF08-4CF8-A1AB-8B190E8DE54F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlPoint</RootNamespace>
+    <AssemblyName>ControlPoint</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tools\TestStack.White\TestStack.White.csproj">
+      <Project>{12c59ce2-9cf7-44f4-b27c-90754609f979}</Project>
+      <Name>TestStack.White</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomationTreeComparator\AutomationTreeComparator.csproj">
+      <Project>{edc67ea6-a3f2-4c11-a190-7d43a368daf6}</Project>
+      <Name>AutomationTreeComparator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomationTree\AutomationTree.csproj">
+      <Project>{bea7f875-de72-4548-8ee3-510b33bfb4f5}</Project>
+      <Name>AutomationTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationReader\ConfigurationReader.csproj">
+      <Project>{0f036e8d-6085-40bd-8604-1b7e69778f9c}</Project>
+      <Name>ConfigurationReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DifferenceTree\DifferenceTree.csproj">
+      <Project>{67E61FA6-31AD-4F25-8BBF-3201D986B93D}</Project>
+      <Name>DifferenceTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhiteAutomation\TreeGenerator.csproj">
+      <Project>{ce71fc79-563f-434a-9f12-649a5f641c67}</Project>
+      <Name>TreeGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlSnapshot\XmlSnapshot.csproj">
+      <Project>{98235a2d-909b-43a4-a3dc-867249c62133}</Project>
+      <Name>XmlSnapshot</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

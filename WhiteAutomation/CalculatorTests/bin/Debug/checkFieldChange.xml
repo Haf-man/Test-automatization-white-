@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<head>
+  <Control Name="131" Id="150" Type="ControlType.Text" Path="">
+    <Properties>
+      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" />
+      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" />
+      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" />
+    </Properties>
+  </Control>
+</head>

@@ -1,0 +1,13 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\obj\Debug\AutomationTreeComparator.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\AutomationTreeComparator.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\AutomationTreeComparator.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\AutomationTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\ConfigurationReader.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\AutomationTree.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\ConfigurationReader.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\obj\Debug\AutomationTreeComparator.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\obj\Debug\AutomationTreeComparator.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\SimpleLogger.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\SimpleLogger.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\DifferenceTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\AutomationTreeComparator\bin\Debug\DifferenceTree.pdb

@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<head>
+  <Control Name="Калькулятор" Id="" Type="ControlType.Window" Path="">
+    <Properties>
+      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="CalcFrame" IsValueSequence="False" />
+      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+    </Properties>
+    <Patterns>
+      <Pattern Name="WindowPatternIdentifiers.Pattern" />
+      <Pattern Name="TransformPatternIdentifiers.Pattern" />
+    </Patterns>
+    <Childs>
+      <Control Name="" Id="" Type="ControlType.Pane" Path="/Window">
+        <Properties>
+          <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+          <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="CalcFrame" IsValueSequence="False" />
+          <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+        </Properties>
+        <Childs>
+          <Control Name="" Id="160" Type="ControlType.Image" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="" Id="153" Type="ControlType.List" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="ListBox" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+              <Property Name="SelectionPatternIdentifiers.SelectionProperty" Value="125 + 132" IsValueSequence="True" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="SelectionPatternIdentifiers.Pattern" />
+            </Patterns>
+            <Childs>
+              <Control Name="125 + 132" Id="" Type="ControlType.ListItem" Path="/Window/Pane/153List">
+                <Properties>
+                  <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                  <Property Name="SelectionItemPatternIdentifiers.IsSelectedProperty" Value="True" IsValueSequence="False" />
+                </Properties>
+                <Patterns>
+                  <Pattern Name="SelectionItemPatternIdentifiers.Pattern" />
+                </Patterns>
+              </Control>
+            </Childs>
+          </Control>
+          <Control Name="Следующий элемент" Id="1052" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Предыдущий элемент" Id="1051" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Запущенный журнал" Id="404" Type="ControlType.Text" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="Память" Id="401" Type="ControlType.Text" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="257" Id="150" Type="ControlType.Text" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="257" Id="158" Type="ControlType.Text" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="Очистка памяти" Id="122" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Backspace" Id="83" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="7" Id="137" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="4" Id="134" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="1" Id="131" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="0" Id="130" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Вызов из памяти" Id="123" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Очистка записи" Id="82" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="8" Id="138" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="5" Id="135" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="2" Id="132" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Сохранение в памяти" Id="124" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Очистить" Id="81" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="9" Id="139" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="6" Id="136" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="3" Id="133" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Десятичный разделитель" Id="84" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Добавление памяти" Id="125" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Унарный минус" Id="80" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Деление" Id="91" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Умножение" Id="92" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Вычитание" Id="94" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Сложение" Id="93" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Вычитание памяти" Id="126" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Квадратный корень" Id="110" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Процент" Id="118" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="False" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Обратная величина" Id="114" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Равно" Id="121" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="" Id="1079" Type="ControlType.Image" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="Градусы" Id="321" Type="ControlType.RadioButton" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+              <Property Name="SelectionItemPatternIdentifiers.IsSelectedProperty" Value="True" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="SelectionItemPatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Радианы" Id="322" Type="ControlType.RadioButton" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+              <Property Name="SelectionItemPatternIdentifiers.IsSelectedProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="SelectionItemPatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Грады" Id="323" Type="ControlType.RadioButton" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+              <Property Name="SelectionItemPatternIdentifiers.IsSelectedProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="SelectionItemPatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="" Id="402" Type="ControlType.Text" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Static" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+          </Control>
+          <Control Name="Целая часть" Id="98" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Градусы минуты секунды" Id="115" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Пи" Id="120" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Экспоненциальное представление" Id="119" Type="ControlType.CheckBox" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="TogglePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Обратные функции" Id="146" Type="ControlType.CheckBox" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="TogglePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Гиперболический синус" Id="105" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Гиперболический косинус" Id="106" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Гиперболический тангенс" Id="107" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Экспоненциальное" Id="127" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Натуральный логарифм" Id="108" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Синус" Id="102" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Косинус" Id="103" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Тангенс" Id="104" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Остаток от деления" Id="95" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Открывающая скобка" Id="128" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Квадрат" Id="111" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Возвести в степень y" Id="97" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Куб" Id="112" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Логарифм" Id="109" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Закрывающая скобка" Id="129" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Факториал" Id="113" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Корень степени y" Id="96" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Кубический корень" Id="116" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+          <Control Name="Антилогарифм" Id="117" Type="ControlType.Button" Path="/Window/Pane">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="Button" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+            </Patterns>
+          </Control>
+        </Childs>
+      </Control>
+      <Control Name="Приложение" Id="MenuBar" Type="ControlType.MenuBar" Path="/Window">
+        <Properties>
+          <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+          <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+          <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+        </Properties>
+        <Childs>
+          <Control Name="Вид" Id="Item 1" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="ExpandCollapsePatternIdentifiers.Pattern" />
+            </Patterns>
+            <Childs>
+              <Control Name="Вид" Id="" Type="ControlType.Menu" Path="/Window/MenuBarMenuBar/Item 1MenuItem">
+                <Properties>
+                  <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="#32768" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="True" IsValueSequence="False" />
+                </Properties>
+                <Childs>
+                  <Control Name="Обычный" Id="Item 305" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Инженерный" Id="Item 304" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                      <Property Name="SelectionItemPatternIdentifiers.IsSelectedProperty" Value="True" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                      <Pattern Name="SelectionItemPatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Программист" Id="Item 306" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Статистика" Id="Item 307" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Журнал" Id="Item 965" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                      <Pattern Name="TogglePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Группировка цифр по разрядам" Id="Item 303" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                      <Pattern Name="TogglePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Обычный" Id="Item 973" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                      <Property Name="SelectionItemPatternIdentifiers.IsSelectedProperty" Value="True" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                      <Pattern Name="SelectionItemPatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Преобразование единиц" Id="Item 975" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Вычисление даты" Id="Item 979" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Листы" Id="Item 12" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="ExpandCollapsePatternIdentifiers.Pattern" />
+                    </Patterns>
+                    <Childs>
+                      <Control Name="Листы" Id="" Type="ControlType.Menu" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu/Item 12MenuItem">
+                        <Properties>
+                          <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                          <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="#32768" IsValueSequence="False" />
+                          <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="True" IsValueSequence="False" />
+                        </Properties>
+                        <Childs>
+                          <Control Name="Ипотека" Id="Item 10000" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu/Item 12MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                          <Control Name="Автолизинг" Id="Item 10001" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu/Item 12MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                          <Control Name="Экономия топлива (миль на галлон)" Id="Item 10002" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu/Item 12MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                          <Control Name="Экономия топлива (л/100 км)" Id="Item 10003" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 1MenuItem/Menu/Item 12MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                        </Childs>
+                      </Control>
+                    </Childs>
+                  </Control>
+                </Childs>
+              </Control>
+            </Childs>
+          </Control>
+          <Control Name="Правка" Id="Item 2" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="ExpandCollapsePatternIdentifiers.Pattern" />
+            </Patterns>
+            <Childs>
+              <Control Name="Правка" Id="" Type="ControlType.Menu" Path="/Window/MenuBarMenuBar/Item 2MenuItem">
+                <Properties>
+                  <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="#32768" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="True" IsValueSequence="False" />
+                </Properties>
+                <Childs>
+                  <Control Name="Копировать" Id="Item 300" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Вставить" Id="Item 301" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="Журнал" Id="Item 4" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="ExpandCollapsePatternIdentifiers.Pattern" />
+                    </Patterns>
+                    <Childs>
+                      <Control Name="Журнал" Id="" Type="ControlType.Menu" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu/Item 4MenuItem">
+                        <Properties>
+                          <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                          <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="#32768" IsValueSequence="False" />
+                          <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="True" IsValueSequence="False" />
+                        </Properties>
+                        <Childs>
+                          <Control Name="Копировать журнал" Id="Item 310" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu/Item 4MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                          <Control Name="Изменить" Id="Item 157" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu/Item 4MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                          <Control Name="Отменить правку" Id="Item 156" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu/Item 4MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="False" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                          <Control Name="Очистить" Id="Item 1050" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 2MenuItem/Menu/Item 4MenuItem/Menu">
+                            <Properties>
+                              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                            </Properties>
+                            <Patterns>
+                              <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                            </Patterns>
+                          </Control>
+                        </Childs>
+                      </Control>
+                    </Childs>
+                  </Control>
+                </Childs>
+              </Control>
+            </Childs>
+          </Control>
+          <Control Name="Справка" Id="Item 3" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar">
+            <Properties>
+              <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+              <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+            </Properties>
+            <Patterns>
+              <Pattern Name="ExpandCollapsePatternIdentifiers.Pattern" />
+            </Patterns>
+            <Childs>
+              <Control Name="Справка" Id="" Type="ControlType.Menu" Path="/Window/MenuBarMenuBar/Item 3MenuItem">
+                <Properties>
+                  <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="#32768" IsValueSequence="False" />
+                  <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="True" IsValueSequence="False" />
+                </Properties>
+                <Childs>
+                  <Control Name="Просмотреть справку" Id="Item 311" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 3MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                  <Control Name="О программе" Id="Item 302" Type="ControlType.MenuItem" Path="/Window/MenuBarMenuBar/Item 3MenuItem/Menu">
+                    <Properties>
+                      <Property Name="AutomationElementIdentifiers.IsEnabledProperty" Value="True" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.ClassNameProperty" Value="" IsValueSequence="False" />
+                      <Property Name="AutomationElementIdentifiers.IsOffscreenProperty" Value="False" IsValueSequence="False" />
+                    </Properties>
+                    <Patterns>
+                      <Pattern Name="InvokePatternIdentifiers.Pattern" />
+                    </Patterns>
+                  </Control>
+                </Childs>
+              </Control>
+            </Childs>
+          </Control>
+        </Childs>
+      </Control>
+    </Childs>
+  </Control>
+</head>

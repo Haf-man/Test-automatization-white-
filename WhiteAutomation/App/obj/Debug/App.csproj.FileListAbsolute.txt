@@ -1,0 +1,9 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\bin\Debug\App.exe.config
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\MainWindow.baml
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\MainWindow.g.cs
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\App.g.cs
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\App_MarkupCompile.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\App.g.resources
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\App\obj\Debug\App.csproj.GenerateResource.Cache

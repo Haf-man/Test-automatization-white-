@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<head>
+  <ChangedControls>
+    <Control Name="" ExpectedName="" Id="153" Type="ControlType.List" Path="/Window/Pane" TechPath="/0/0/1">
+      <ChangedProperties>
+        <Property Name="SelectionPatternIdentifiers.SelectionProperty" Value="125 + 131" ExpectedValue="125 + 132" Mode="Usual" RegExp="" />
+      </ChangedProperties>
+    </Control>
+    <Control Name="125 + 131" ExpectedName="125 + 132" Id="" Type="ControlType.ListItem" Path="/Window/Pane/153List" TechPath="/0/0/1/0">
+      <ChangedProperties>
+        <Property Name="Name" Value="125 + 131" ExpectedValue="125 + 132" Mode="Usual" RegExp="" />
+      </ChangedProperties>
+    </Control>
+    <Control Name="256" ExpectedName="257" Id="150" Type="ControlType.Text" Path="/Window/Pane" TechPath="/0/0/6">
+      <ChangedProperties>
+        <Property Name="Name" Value="256" ExpectedValue="257" Mode="Usual" RegExp="" />
+      </ChangedProperties>
+    </Control>
+    <Control Name="256" ExpectedName="257" Id="158" Type="ControlType.Text" Path="/Window/Pane" TechPath="/0/0/7">
+      <ChangedProperties>
+        <Property Name="Name" Value="256" ExpectedValue="257" Mode="Usual" RegExp="" />
+      </ChangedProperties>
+    </Control>
+  </ChangedControls>
+</head>

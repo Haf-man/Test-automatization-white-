@@ -1,0 +1,5 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\SimpleLogger\bin\Debug\SimpleLogger.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\SimpleLogger\bin\Debug\SimpleLogger.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\SimpleLogger\obj\Debug\SimpleLogger.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\SimpleLogger\obj\Debug\SimpleLogger.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\SimpleLogger\obj\Debug\SimpleLogger.csprojResolveAssemblyReference.cache

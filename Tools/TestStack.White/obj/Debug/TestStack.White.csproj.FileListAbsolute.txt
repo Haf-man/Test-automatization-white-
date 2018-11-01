@@ -1,0 +1,12 @@
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\Init.ps1
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\TestStack.White.psm1
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\readme.txt
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\TestStack.White.dll.config
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\TestStack.White.xml
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\TestStack.White.dll
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\TestStack.White.pdb
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\Castle.Core.dll
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\bin\Debug\Castle.Core.xml
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\obj\Debug\TestStack.White.dll
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\obj\Debug\TestStack.White.pdb
+C:\Users\keyww\Source\Workspaces\White\Tools\TestStack.White\obj\Debug\TestStack.White.csprojResolveAssemblyReference.cache

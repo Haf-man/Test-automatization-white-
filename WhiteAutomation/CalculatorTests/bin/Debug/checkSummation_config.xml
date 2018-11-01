@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IncludedControls>
+    <ControlConfiguration>
+      <Name>255</Name>
+      <AutomationId>155</AutomationId>
+      <Path></Path>
+      <InterestingProperties>
+		<ControlPropertie PropertieName="AutomationElementIdentifiers.IsEnabledProperty" RegExpression="True" CompareScope="OnlyControl"/>
+		<ControlPropertie PropertieName="AutomationElementIdentifiers.ClassNameProperty" RegExpression="Static" CompareScope="OnlyControl"/>
+      </InterestingProperties>
+    </ControlConfiguration>
+  </IncludedControls>
+</Configuration>

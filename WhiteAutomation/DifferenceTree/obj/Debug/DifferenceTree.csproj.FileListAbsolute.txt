@@ -1,0 +1,7 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\bin\Debug\DifferenceTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\bin\Debug\DifferenceTree.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\bin\Debug\AutomationTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\bin\Debug\AutomationTree.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\obj\Debug\DifferenceTree.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\obj\Debug\DifferenceTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\DifferenceTree\obj\Debug\DifferenceTree.pdb

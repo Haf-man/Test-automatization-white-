@@ -1,0 +1,13 @@
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\XmlSnapshotTest.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\XmlSnapshotTest.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\AutomationTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\WhiteAutomation.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\XmlSnapshot.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\AutomationTree.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\WhiteAutomation.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\XmlSnapshot.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\obj\Debug\XmlSnapshotTest.csprojResolveAssemblyReference.cache
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\obj\Debug\XmlSnapshotTest.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\obj\Debug\XmlSnapshotTest.pdb
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\DifferenceTree.dll
+C:\Users\keyww\Source\Workspaces\White\WhiteAutomation\XmlSnapshotTest\bin\Debug\DifferenceTree.pdb

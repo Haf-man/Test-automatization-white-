@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="IncludedControls" type="ControlConfigurations"/>
+        <xs:element name="ExcludedControls" type="ControlConfigurations"/>
+        <xs:element name="IncludedProperties" type="Properties"/>
+        <xs:element name="ExcludedProperties" type="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ControlConfigurations">
+    <xs:sequence>
+      <xs:element name="ControlConfiguration" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Name" type="xs:string" />
+            <xs:element name="AutomationId" type="xs:string"/>
+            <xs:element name="Path" type="xs:string"/>
+            <xs:element name="TechPath" type="xs:string"/>
+            <xs:element name="ControlType" type="xs:string"/>
+            <xs:element name="InterestingProperties" type="ControlProperties"/>
+          </xs:sequence>
+          <xs:attribute name="CompareScope" type="CompareScopes" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Properties">
+    <xs:sequence>
+      <xs:element name="PropertieName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ControlProperties">
+    <xs:sequence>
+      <xs:element name="ControlPropertie" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="Name" type="xs:string" use="required"/>
+          <xs:attribute name="Value" type="xs:string" use="required"/>
+          <xs:attribute name="IsValueRegExp" type="xs:boolean" use="required"/>
+          <xs:attribute name="CompareScope" type="CompareScopes" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="CompareScopes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="OnlyChildren"/>
+      <xs:enumeration value="OnlyControl"/>
+      <xs:enumeration value="ChildrenWithControl"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
